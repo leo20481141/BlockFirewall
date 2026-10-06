@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": ".NET Framework 3.5 Launch (WinForms)",
+            "type": "clr",
+            "request": "launch",
+            "program": "${workspaceFolder}/bin/Debug/net35/${workspaceFolderBasename}.exe",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "preLaunchTask": "build35",
+            "console": "internalConsole",
+        },
+        {
+            "name": ".NET Framework 4.7.2 Launch (WinForms)",
+            "type": "clr",
+            "request": "launch",
+            "program": "${workspaceFolder}/bin/Debug472/net472/${workspaceFolderBasename}.exe",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "preLaunchTask": "build472",
+            "console": "internalConsole",
+        },
+    ]
+}
